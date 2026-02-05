@@ -1,0 +1,26 @@
+{
+  "name": "porto",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@react-spring/parallax": "^10.0.3",
+    "@react-spring/web": "^10.0.3",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-parallax": "^3.5.2",
+    "simple-parallax-js": "^6.3.3"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.7.1",
+    "@rsbuild/plugin-react": "^1.4.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
+  }
+}
