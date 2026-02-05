@@ -9,12 +9,12 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
+    "@rsbuild/core": "^1.7.1",
+    "@rsbuild/plugin-react": "^1.4.2",
     "@react-spring/parallax": "^10.0.3",
     "@react-spring/web": "^10.0.3",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react-parallax": "^3.5.2",
-    "simple-parallax-js": "^6.3.3"
   },
   "devDependencies": {
     "@rsbuild/core": "^1.7.1",
