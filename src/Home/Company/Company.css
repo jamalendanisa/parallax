@@ -1,0 +1,26 @@
+.bubble {
+  background-color: rgba(63, 177, 230, 0.398);
+  background-image: url('/public/images/spritesheet.png');
+  background-size: 1076px 1076px;
+  border-radius: 50%;
+  box-shadow: 0 15px 35px rgba(250, 253, 253, 0.1), 0 3px 10px rgba(0, 0, 0, 0.1);
+  height: 152px;
+  margin-right: 20px;
+  position: absolute;
+  transition: opacity ease-in-out 1s;
+  width: 152px;
+}
+
+.bubbles {
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  z-index: 20;
+}
+
+.bubbles-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}

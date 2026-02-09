@@ -1,0 +1,17 @@
+.dock {
+  will-change: contents;
+  box-sizing: content-box;
+  transform-origin: top;
+  border-radius: 12px;
+  align-items: flex-end;
+  gap: 12px;
+  height: 58px;
+  padding: 10px 10px 6px;
+  display: flex;
+  position: absolute;
+  bottom: 34px;
+  backdrop-filter: 12px;
+  top: 10px;
+  left: 50%;
+  z-index: 20;
+}

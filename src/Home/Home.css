@@ -2,7 +2,6 @@ body {
   margin: 0;
   background-color: #077eab;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(to bottom, #020917, #101725);
 }
 
 .content {
@@ -35,6 +34,14 @@ body {
   height: 100%;
   justify-content: center;
   margin-top: -30pc;
+}
+
+.canvas {
+  overflow: unset;
+  top: -85%;
+  left: -38%;
+  height: -webkit-fill-available;
+  position: absolute;
 }
 
 .animation {
@@ -104,30 +111,5 @@ body {
 
 #bg15 {
   background-image: url('/public/images/sea/5.png');
-  min-height: 100%;
-}
-
-#fish1 {
-  background-image: url('/public/images/sea/fish/1.png');
-  min-height: 100%;
-}
-
-#fish2 {
-  background-image: url('/public/images/sea/fish/2.png');
-  min-height: 100%;
-}
-
-#fish3 {
-  background-image: url('/public/images/sea/fish/3.png');
-  min-height: 100%;
-}
-
-#fish4 {
-  background-image: url('/public/images/sea/fish/4.png');
-  min-height: 100%;
-}
-
-#fish5 {
-  background-image: url('/public/images/sea/fish/5.png');
   min-height: 100%;
 }
