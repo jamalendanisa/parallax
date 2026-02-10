@@ -62,6 +62,14 @@ body {
 	position: fixed;
 }
 
+.desc-top {
+  top: 20%;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
 #bg1 {
   background-image: url('/public/images/beach/1.png');
   min-height: 100%;

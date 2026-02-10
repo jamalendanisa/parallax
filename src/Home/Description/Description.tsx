@@ -1,10 +1,14 @@
 import Shuffle from './Shuffle';
 
-export default function Description() {
+interface DescProps {
+  text: string
+}
+
+export default function Description({ text }: DescProps) {
   return (
     <div className="shuffle-cont">
       <Shuffle
-        text="Under the sea"
+        text={text}
         shuffleDirection="up"
         duration={1.5}
         animationMode="evenodd"

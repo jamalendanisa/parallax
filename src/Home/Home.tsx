@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <NavTab/>
       <Company/>
-      <Description/>
+      <Description text= "Under the sea"/>
       <Parallax pages={2} style={{ top: '0', left: '0' }} className="animation">
         <ParallaxLayer offset={0} speed={0.5}>
           <div className='animation_layer parallax' id='bg1'></div>
@@ -20,6 +20,9 @@ export default function Home() {
         <ParallaxLayer offset={0} speed={1.5}>
           <div className='animation_layer parallax' id='bg2'></div>
         </ParallaxLayer>
+        <div className='desc-top'>
+         <Description text= "Hello!"/>
+        </div>
         <ParallaxLayer offset={0} speed={2}>
           <div className='animation_layer parallax' id='bg3'></div>
         </ParallaxLayer>
