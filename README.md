@@ -27,6 +27,23 @@ Preview the production build locally:
 ```bash
 npm run preview
 ```
+## Credit
+
+Illustrations:
+
+- [Fish](https://llenpix.itch.io/fish-sprite)
+- [Underwater](https://free-game-assets.itch.io/free-underwater-world-pixel-art-backgrounds)
+- [Ocean](https://free-game-assets.itch.io/ocean-and-clouds-free-pixel-art-backgrounds)
+
+
+Feature:
+
+- [Floating Logo](https://www.williamkurniawan.com/blog/stripe-floating-logo-bubbles-clone-using-react-hooks)
+- [Bubbles](https://codepen.io/shrutikapoor08/pen/wvQXMVO)
+- [Parallax](https://react-spring.dev/docs/components/parallax)
+- [Text Animation](https://www.reactbits.dev/text-animations/shuffle)
+- [Profile Link](https://codesandbox.io/p/sandbox/6zchkl)
+
 
 ## Learn more
 
