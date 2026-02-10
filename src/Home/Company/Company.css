@@ -13,7 +13,6 @@
 
 .bubbles {
   height: 600px;
-  overflow: hidden;
   position: relative;
   z-index: 20;
 }
